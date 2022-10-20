@@ -1,0 +1,37 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    margin-top: 10px;
+
+    position: relative;
+   /* we have five values in position property 
+   1.static: in this elements are not affected by the top,left,bottom and right.
+   2.relative:in this element cause it to be adjusted away from its normal position.
+   3.fixed:in this element always stays in the same palce if the page is scrolled.
+   4.absolute:in this element positioned realtive to the nearest positioned ancestor.
+   5.sticky   */
+
+}
+.container{
+    background-color: aquamarine;
+}
+
+.box1{
+    background-color: red;
+    right:0;
+    
+}
+.box2{
+    background-color: green;
+    bottom: 0;
+}
+
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+}
