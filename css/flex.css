@@ -1,0 +1,56 @@
+/*
+ 1. flex-direction property defines in which direction the container wants to stack the flex items.
+
+2.The column value stacks the flex items vertically (from top to bottom):
+
+3.The column-reverse value stacks the flex items vertically (but from bottom to top):
+
+4.The row value stacks the flex items horizontally (from left to right):
+
+5.The row-reverse value stacks the flex items horizontally (but from right to left):
+
+6.The flex-wrap:wrap property specifies whether the flex items should wrap or not.
+
+7.The "flex-wrap: nowrap;" specifies that the flex items will not wrap (this is default):
+
+8.The wrap-reverse value specifies that the flexible items will wrap if necessary, in reverse order:
+
+9.The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+
+Example
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
+
+ */
+
+.flex_container{
+    background-color: brown;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center;     */
+    /*The justify-content property is used to align the flex items:center,flex-start and flex-end.
+      The "justify-content: space-around;" displays the flex items with space before, between, and after the lines:
+      The space-between value displays the flex items with space between the lines:*/
+
+      /* align-items: center; */
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color:white;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
