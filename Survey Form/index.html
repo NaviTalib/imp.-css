@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+<h1 id="title">Survey Form</h1>
+<p id="description">Please fill out this form with the required information</p>
+<form id="survey-form" >
+<fieldset>
+  <label id="name-label"> Name:</label><input type="text" placeholder="Enter Your Name" id="name" required>
+  <label id="email-label"> Email:</label><input type="email" placeholder="Enter Your Email"id="email" required>
+  <label id="number-label"> Number:</label><input type="number" id="number" placeholder="Enter Your Contact" min="0" max="9">
+</fieldset>
+<fieldset>
+   <label for="dropdown">Gender:</label> 
+  <select id="dropdown">
+  <option>(Select)</option>
+  <option>Male</option>
+  <option>Female</option>  
+  <select>
+</fieldset>    
+<fieldset>
+    <label class="inline" for="rtbn">Computer Science</label>
+  <input type="radio" name="rbtn" value="rbtn" name="">
+  <label class="inline" for="rtbn">Others</label>
+  <input type="radio" name="rbtn" value="rbtn" name="">
+</fieldset>
+<fieldset>
+    <h4>Skills</h4>
+    <label for="cbtn">HTML</label>
+    <input type="checkbox" value="cbtn" name="cbtn">
+    <label for="cbtn">CSS</label>
+    <input type="checkbox" value="cbtn" name="cbtn">
+    <label for="cbtn">JavaScript</label>
+    <input type="checkbox" value="cbtn" name="cbtn">
+    <label for="cbtn">JQuery</label>
+    <input type="checkbox" value="cbtn" name="cbtn">
+    <label for="cbtn">Bootstrap</label>
+    <input type="checkbox" value="cbtn" name="cbtn">
+    
+</fieldset>
+
+<fieldset>
+    <label for="bio">Describe Yourself:</label>
+    <textarea rows="3" cols="30"></textarea>
+</fieldset>
+  <input type="submit" value="submit" id="submit">
+</form>
+</div>
+</body>
+</html>
